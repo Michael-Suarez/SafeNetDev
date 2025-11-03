@@ -1,0 +1,107 @@
+body
+{
+    background-color: #1C0C4F;
+    margin-top: 100px;
+}
+
+#titulo_odc 
+{
+    color: #FFFFFF;
+    font-family: "Iceberg";
+    font-weight: 400;
+    font-size: 120px;
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #1C0C4F;
+}
+
+#tematica
+{
+    color: #FFFFFF;
+    font-family: "Iceberg";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    background-color: #1C0C4F;
+}
+
+#autor_1
+{
+    color: #FFFFFF;
+    font-family: "Iceberg";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#autor_2
+{
+    color: #FFFFFF;
+    font-family: "Iceberg";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#institucion
+{
+    color: #FFFFFF;
+    font-family: "Iceberg";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#programa_a1
+{
+    color: #FFFFFF;
+    font-family: "Iceberg";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#programa_a2
+{
+    color: #FFFFFF;
+    font-family: "Iceberg";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.3;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#boton_com_pag1 
+{
+    width: 148px;
+    height: 55px;
+    padding: 0px 10px;
+    background: #9C29B7;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-family: "Iceberg";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#botones_pag1
+{
+    display: flex;
+    justify-content: center;
+}
