@@ -1,8 +1,10 @@
 body
 {
     background-color: #1C0C4F;
-    margin-top: 100px;
+}
 
+#body_pag1
+{
     background-image:
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='40'>🛜</text></svg>"),
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-size='40'>💻</text></svg>");
@@ -12,12 +14,21 @@ body
     background-position: 0 0, 100px 100px;
 }
 
-#titulo_odc 
+#main_pag1
+{
+    padding-top: 2%;
+}
+
+.text
 {
     color: #FFFFFF;
     font-family: "Iceberg";
+}
+
+#titulo_odc 
+{
     font-weight: 400;
-    font-size: 120px;
+    font-size: 8vw;
     text-align: center;
     margin-bottom: 0px;
 }
@@ -29,10 +40,8 @@ span
 
 #tematica
 {
-    color: #FFFFFF;
-    font-family: "Iceberg";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.4vw;
     line-height: 1.3;
     text-align: center;
     margin-top: 0px;
@@ -41,10 +50,8 @@ span
 
 #autores
 {
-    color: #FFFFFF;
-    font-family: "Iceberg";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.4vw;
     line-height: 1.3;
     text-align: center;
     margin-bottom: 0px;
@@ -52,10 +59,8 @@ span
 
 #institucion_programas
 {
-    color: #FFFFFF;
-    font-family: "Iceberg";
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.4vw;
     line-height: 1.3;
     text-align: center;
     margin-bottom: 60px;
@@ -65,7 +70,7 @@ button
 {
     background: #9C29B7;
     border: 1px solid #9C29B7;
-    border-radius: 3px;
+    border-radius: 10px;
     color: #FFFFFF;
     font-family: "Iceberg";
     cursor: pointer;
@@ -79,15 +84,229 @@ button
 
 #boton_com_pag1 
 {
-    width: 160px;
-    height: 60px;
+    width: 10vw;
+    height: 4vw;
     padding: 0px 10px;
     
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
-#boton_com_pag1:hover
+button:hover
 {
     background-color: #e271fb;
 }
+
+#main_pag2
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#text_pag2
+{
+    width: 50%;
+    padding-left: 4%;
+    text-align: justify;
+}
+
+#avatar_pag2
+{
+    width: 50%;
+}
+
+#avatar_pag2 video
+{
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+}
+
+#tit_rea
+{
+    font-weight: 600;
+    font-size: 3.5vw;
+    text-align: left;
+}
+
+#rea
+{
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+.footer_2bot
+{
+    display: flex;
+    justify-content: center;
+    gap: 60vw;
+}
+
+.botones_footer
+{
+    width: 10vw;
+    height: 4vw;
+    padding: 0px 10px;
+    
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+#main_pag3
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#text_pag3
+{
+    width: 50%;
+    padding-left: 4%;
+    text-align: justify;
+}
+
+#avatar_pag3
+{
+    width: 50%;
+}
+
+#avatar_pag3 video
+{
+    width: 90%;
+    height: 90%;
+    cursor: pointer;
+}
+
+#tit_po
+{
+    font-weight: 600;
+    font-size: 3.5vw;
+}
+
+#po
+{
+    font-weight: 400;
+    font-size: 2vw;
+}
+
+footer
+{
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    background-color: #1C0C4F;
+}
+
+#main_pag4
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#avatar_pag4
+{
+    width: 48%;
+}
+
+#avatar_pag4 video
+{
+    width: 88%;
+    cursor: pointer;
+}
+
+#cont_mod
+{
+    width: 50%;
+    height: 35vw;
+    overflow: hidden;
+    position: relative;
+    background-color: #1C0C4F;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+#modulos
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ocupa todo el alto del contenedor padre */
+    overflow-y: auto; /* Activa el scroll vertical si el contenido excede el alto */
+    padding: 10px; /* Espacio interno */
+    margin-left: 20px;
+}
+
+.mod
+{
+    display: flex;
+    gap: 40px;
+    padding: 15px;
+}
+
+.mod h3
+{
+    text-align: center;
+}
+
+.tem
+{
+    margin-top: 20px;
+    width: 300px;
+}
+
+.barra 
+{
+    width: 200px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    height: 10px;
+    margin-top: 30px;
+}
+
+.progreso
+{
+    width: 0px; /* Inicialmente, la barra de progreso está vacía */
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+}
+
+.mod_hs
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.mod_hs:hover
+{
+    background-color: #9C29B7;
+    border-radius: 20px;
+}
+
+.footer_3bot
+{
+    display: flex;
+    justify-content: center;
+    gap: 25vw;
+}
+
+#main_pag5
+{
+    display: flex;
+    justify-content: center;
+}
+
+.vid_mod
+{
+    margin-top: 5vw;
+    width: 60vw;
+    height: auto;
+    border: 0.6vw solid #00ccff;
+    border-radius: 1vw;
+}
+
