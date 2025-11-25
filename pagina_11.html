@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeNetDev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="main_pag11">
+        <div class="text">
+            <h2 id="tit_pag11">Identificación de riesgos en cada fase</h2>
+            <p id="text1_pag11">Cada fase del SSDLC presenta riesgos específicos que, si no se gestionan, pueden comprometer la calidad y seguridad del software. Identificarlos desde el inicio permite mitigar fallas, reducir costos y fortalecer la protección del sistema.</p>
+        </div>
+        <div id="cont_pag11">
+            <div class="text" id="text2_pag11">
+                <p>Análisis: Riesgo de requisitos incompletos, interpretaciones erróneas o falta de identificación de amenazas.</p>
+                <p>Diseño: Arquitecturas inseguras, selección de componentes vulnerables y ausencia de modelado de amenazas.Si el software presenta brechas de seguridad, la reputación de la empresa desarrolladora se puede ver comprometida lo que puede afectar su relación con los stakeholders y los usuarios, dificultando la fidelización.</p>
+                <p>Desarrollo: Errores de codificación, uso de dependencias inseguras o falta de buenas prácticas de seguridad.</p>
+                <p>Pruebas: Cobertura insuficiente, pruebas de seguridad incompletas o vulnerabilidades no detectadas.</p>
+                <p>Despliegue: Configuraciones débiles, accesos mal gestionados, errores en entornos o falta de parches.</p>
+                <p>Mantenimiento: Aparición de nuevas vulnerabilidades, falta de monitoreo y acumulación de deuda técnica.</p>
+            </div>
+            <div id="avatar_pag11">
+                <video autoplay onclick="this.play()" src="assets\videos\avatar_pag11.mp4"></video>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_3bot">
+            <button class="botones_footer" onclick="location.href='pagina_10.html'">Regresar</button>
+            <button class="botones_footer" onclick="location.href='pagina_4.html'">Menu</button>
+            <button class="botones_footer" onclick="location.href='pagina_12.html'">Siguiente</button>    
+        </div>
+    </footer>
+</body>
+<script src="progreso_modulos.js"></script>
+<script>
+  const num_modulo = 2;
+  guard_ult_pag(num_modulo);
+  guard_progre_mod(num_modulo, 60);
+</script>
+</html>
