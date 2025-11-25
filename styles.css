@@ -48,24 +48,6 @@ span
     margin-bottom: 8.5vw;
 }
 
-#autores
-{
-    font-weight: 400;
-    font-size: 1.4vw;
-    line-height: 1.3;
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-#institucion_programas
-{
-    font-weight: 400;
-    font-size: 1.4vw;
-    line-height: 1.3;
-    text-align: center;
-    margin-bottom: 60px;
-}
-
 button
 {
     background: #9C29B7;
@@ -1329,13 +1311,55 @@ footer
     padding: 1vw;
 }
 
+#main_pag44
+{
+    display: flex;
+    justify-content: center;
+}
+
 #cont_ref
 {
-    width: 100%;
+    width: 70vw;
     height: 35vw;
     overflow: hidden;
     position: relative;
     background-color: #1C0C4F;
     margin-top: 4vw;
     text-align: center;
+}
+
+#referencias
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto; 
+}
+
+#main_pag45
+{
+    text-align: center;
+}
+
+#tit_credi h2
+{
+    font-size: 5vw;
+    margin-bottom: 3vw;
+}
+
+#autores
+{
+    font-size: 1.3vw
+}
+
+#inst_prog
+{
+    font-size: 1.3vw;
+    margin-top: 4vw
+}
+
+#licencia
+{
+    font-size: 1.3vw;
+    margin-top: 5vw;
 }
