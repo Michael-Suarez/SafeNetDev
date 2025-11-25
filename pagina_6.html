@@ -8,22 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
 </head>
 <body>
     <main id="main_pag6">
         <div class="text">
-            <h2>Impacto de las fallas en la calidad y seguridad del software</h2>
-            <p>Cuando no se aplican las metodologias de calidad en el ciclo de desarrollo de software, el impacto se ve reflejado directamente en la seguridad, por esta razon un producto en el que no se implementaron estas practicas puede presentar vulnerabilidades graves.</p>
+            <h2 id="tit_pag6">Impacto de las fallas en la calidad y seguridad del software</h2>
+            <p id="text1_pag6">Cuando se está llevando a cabo el desarrollo de un software, es de vital importancia llevar a cabo un plan de seguridad con el fin de verificar que el producto este preparado para enfrentar cualquier posible incidente o ataque malintencionado, de lo contrario esto puede tener un impacto negativo.</p>
         </div>
-        <div>
-            <div>
-                <p>
-                    Las empresa u organizaciones pueden presentar 
-                </p>
+        <div id="cont_pag6">
+            <div class="text" id="text2_pag6">
+                <li>Una vulnerabilidad en el software puede causar una fuga de la información personal de los usuarios o la información clasificada de la empresa desarrolladora, esta información puede ser aprovechada por los atacantes para cometer delitos como hurto, extorción o suplantación.</li>
+                <br><li>Si el software presenta brechas de seguridad, la reputación de la empresa desarrolladora se puede ver comprometida lo que puede afectar su relación con los stakeholders y los usuarios, dificultando la fidelización.</li>
+                <br><li>La revocación de permisos de operación o licencias es otro de los riesgos que puede correr una empresa al distribuir u operar con un software vulnerable, especialmente si se incumple la ley de protección de datos personales.</li>
+                <br><li>Las brechas de seguridad también suponen un impacto económico bastante negativo, empezando por el hecho de que los ciberdelincuentes pueden aprovechar los datos clasificados de la empresa para extorsionarla, seguido de los problemas económicos que pueden surgir de la perdida de reputación y los costos asociados a la recuperación de los sistemas afectados durante un incidente.</li>
             </div>
-            <div>
-
+            <div id="avatar_pag6">
+                <video autoplay onclick="this.play()" src="assets\videos\avatar_pag6.mp4"></video>
             </div>
         </div>
     </main>
@@ -35,4 +35,10 @@
         </div>
     </footer>
 </body>
+<script src="progreso_modulos.js"></script>
+<script>
+  const num_modulo = 1;
+  guard_ult_pag(num_modulo);
+  guard_progre_mod(num_modulo, 40);
+</script>
 </html>
