@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeNetDev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="main_pag24">
+        <div class="text">
+            <h2 id="tit_pag24">Tipos de redes seguras</h2>
+            <div id="text1_pag24">
+                <p>No todas las redes son iguales: según su tamaño, su cobertura y su propósito, se pueden diseñar arquitecturas específicas para lograr un equilibrio entre rendimiento, seguridad y administración. Para proteger los datos y optimizar la infraestructura, las organizaciones recurren a redes seguras como LAN segmentadas, VLANs lógicas y conexiones cifradas como las VPN.</p>
+            </div>
+        </div>
+        <div id="cont_pag24">
+            <div id="avatar_pag24">
+                <video autoplay onclick="this.play()" src="assets\videos\avatar_pag24.mp4"></video>
+            </div>
+            <div class="text" id="text2_pag24">
+                <p>LAN (Local Area Network): Red de área local que conecta dispositivos dentro de un espacio limitado, como una oficina o edificio, permitiendo altas velocidades y fácil compartición de recursos.  </p>
+                <p>VLAN (Virtual LAN): Permite crear redes lógicas independientes sobre la misma infraestructura física; dividiendo una red en segmentos separados, mejorando la seguridad y reduciendo el dominio de difusión.</p>
+                <p>VPN (Virtual Private Network): Es una red privada virtual que cifra la comunicación a través de internet, facilitando el acceso remoto seguro a recursos internos como si el usuario estuviera dentro de la red corporativa.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_3bot">
+            <button class="botones_footer" onclick="location.href='pagina_23.html'">Regresar</button>
+            <button class="botones_footer" onclick="location.href='pagina_4.html'">Menu</button>
+            <button class="botones_footer" onclick="location.href='pagina_25.html'">Siguiente</button>    
+        </div>
+    </footer>
+</body>
+<script src="progreso_modulos.js"></script>
+<script>
+  const num_modulo = 4;
+  guard_ult_pag(num_modulo);
+  guard_progre_mod(num_modulo, 60);
+</script>
+</html>

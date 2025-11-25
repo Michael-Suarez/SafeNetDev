@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeNetDev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+</head>
+<body id="body_cuest">
+    <main id="main_cuest">
+        <div class="text" id="cuestionario">
+            <h2 id="pregunta">Pregunta aquí</h2>
+
+            <div id="opc_list">
+                <p><strong>A:</strong> <span id="opcA"></span></p>
+                <p><strong>B:</strong> <span id="opcB"></span></p>
+                <p><strong>C:</strong> <span id="opcC"></span></p>
+                <p><strong>D:</strong> <span id="opcD"></span></p>
+            </div>
+
+            <div id="botones_cuest">
+                <button class="opc_btn" data-letter="A">A</button>
+                <button class="opc_btn" data-letter="B">B</button>
+                <button class="opc_btn" data-letter="C">C</button>
+                <button class="opc_btn" data-letter="D">D</button>
+            </div>  
+        </div>
+    </main>
+    <footer>
+        <div class="footer_cuest">
+            <p id="retroalimentacion"></p>
+            <button style="display: none;" id="boton_sig_cuest"  class="botones_footer">Siguiente</button>
+        </div>
+    </footer>
+    <script src="mod_4.js"></script>
+    <script src="progreso_modulos.js"></script>
+</body>
+</html>
